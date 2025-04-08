@@ -2,6 +2,7 @@ import Logo from "@/assets/nav/logoWhite.svg";
 import Visa from "@/assets/footer/visa.svg";
 import appleStore from "@/assets/footer/applestore.svg";
 import playstore from "@/assets/footer/playstore.svg";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -23,9 +24,13 @@ const Footer = () => {
         {/* Company */}
         <div className="flex-1 min-w-[150px] flex flex-col">
           <h4 className="font-semibold mb-2">Company</h4>
-          <p className="my-2 text-sm">About</p>
+          <Link to={"/about"} className="my-2 text-sm">
+            About
+          </Link>
           <p className="my-2 text-sm">Blog</p>
-          <p className="my-2 text-sm">FAQ</p>
+          <Link to={"/faq"} className="my-2 text-sm">
+            FAQ
+          </Link>
           <p className="my-2 text-sm">Careers</p>
         </div>
 

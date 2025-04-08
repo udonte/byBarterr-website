@@ -112,10 +112,10 @@ const Navbar = (Props: Props) => {
 
           {/* MENU ITEMS */}
           <div className={`flex flex-col items-start gap-6  w-full text-lg`}>
-            <button>Home</button>
-            <button>About</button>
-            <button>FAQs</button>
-            <button>Contact Us</button>
+            <Link to={"/"}>Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/faq">FAQs</Link>
+            <Link to={"/contact"}>Contact Us</Link>
           </div>
 
           <div className="flex flex-col items-start gap-4 w-full mt-18 text-lg">
