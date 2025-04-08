@@ -152,7 +152,7 @@ const Deals = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
-            className="w-full flex items-center justify-between gap-4 rounded-3xl bg-[#FFEB9D] px-8 pt-8 overflow-hidden"
+            className="w-full flex items-center justify-between gap-4 rounded-3xl bg-[#FFEB9D] px-4 pt-4 md:px-8 md:pt-8 overflow-hidden"
           >
             <motion.div
               initial={{ opacity: 0 }}
@@ -160,7 +160,7 @@ const Deals = () => {
               transition={{ delay: 0.4 }}
               className="flex-1 space-y-4"
             >
-              <p className="text-4xl font-extrabold text-[#1D242D] ">
+              <p className="text-2xl md:text-4xl font-extrabold text-[#1D242D] ">
                 Swap deals are back!!!
               </p>
               <p className="text-sm text-[#333]">Get iphone 14 with your 12.</p>
@@ -175,7 +175,7 @@ const Deals = () => {
               }}
               src={Swap1}
               alt="Discount offer"
-              className="w-1/2 h-auto object-contain rounded overflow-hidden"
+              className="w-1/3 md:w-1/2 h-auto object-contain rounded overflow-hidden"
             />
           </motion.div>
 

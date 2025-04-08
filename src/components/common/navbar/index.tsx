@@ -22,7 +22,7 @@ const Navbar = (Props: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* left */}
-            <Link to={"/"} className="w-fit h-full">
+            <Link to={"/"} className="w-full md:w-fit h-full">
               <img src={Logo} alt="logo" className="" />
             </Link>
             {/* right */}

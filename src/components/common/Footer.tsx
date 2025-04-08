@@ -31,7 +31,12 @@ const Footer = () => {
           <Link to={"/faq"} className="my-2 text-sm">
             FAQ
           </Link>
-          <p className="my-2 text-sm">Careers</p>
+          <p className="my-2 text-sm">
+            Careers{" "}
+            <span className="border border-white py-2 px-4 rounded-md ml-4">
+              Hiring
+            </span>
+          </p>
         </div>
 
         {/* Products */}
