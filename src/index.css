@@ -142,19 +142,8 @@
   }
 }
 
-/* Background Images */
-@layer utilities {
-  .bg-gradient-yellowred {
-    background-image: linear-gradient(90deg, #ff616a 0%, #ffc837 100%);
-  }
-
-  .bg-mobile-home {
-    background-image: url("./assets/HomePageGraphic.png");
-  }
-}
-
 /* Content utilities */
-@layer utilities {
+/* @layer utilities {
   .content-herobackground {
     content: url("./assets/landing//heroImage.svg");
   }
@@ -170,4 +159,4 @@
   .content-circles {
     content: url("./assets/Circles.png");
   }
-}
+} */
