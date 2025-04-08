@@ -1,5 +1,3 @@
-import React from "react";
-
 const Subscribe = () => {
   return (
     <section className="px-4 py-8 lg:px-24 lg:py-24 ">

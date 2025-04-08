@@ -1,8 +1,8 @@
 import { motion, AnimatePresence } from "framer-motion";
 import Phone from "@/assets/landing/PhonePro.svg";
 import DiscountImage from "@/assets/landing/DiscountImage2.svg";
-import Swap1 from "@/assets/landing/Swap1.svg";
-import Swap2 from "@/assets/landing/Swap2.svg";
+import Swap1 from "@/assets/landing/swap1.svg";
+import Swap2 from "@/assets/landing/swap2.svg";
 
 const dealItems = [
   {

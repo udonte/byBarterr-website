@@ -1,4 +1,3 @@
-import React from "react";
 import DavioSwap1 from "@/assets/landing/DavioSwap.svg";
 import DavioSwap2 from "@/assets/landing/DavioSwap1.svg";
 import DavioSwap3 from "@/assets/landing/DavioSwap2.svg";
