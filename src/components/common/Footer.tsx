@@ -1,7 +1,7 @@
 import Logo from "@/assets/nav/logoWhite.svg";
 import Visa from "@/assets/footer/visa.svg";
-import appleStore from "@/assets/footer/appleStore.svg";
-import playstore from "@/assets/footer/playStore.svg";
+import appleStore from "@/assets/footer/applestore.svg";
+import playstore from "@/assets/footer/playstore.svg";
 
 const Footer = () => {
   return (
