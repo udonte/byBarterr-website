@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Iphone3 from "@/assets/landing/iPhone13Pro.svg";
+import Iphone3 from "@/assets/landing/Iphone13Pro.svg";
 import phoneScreen from "@/assets/landing/phoneScreenshot.svg";
 
 type Props = {};
